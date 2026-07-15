@@ -19,7 +19,7 @@ var mobiles=[
       id:3,
       name:"realme P4 Power 5G",
       description:"realme P4 Power 5G (TransBlue, 128 GB) (8 GB RAM)",
-      price:"₹₹14,999"   
+      price:"₹₹14,900"   
     }
 ]
 
