@@ -5,11 +5,13 @@ const connection = db.createConnection({
     password: 'Suchendra@25',
     database: 'users'
 });
-if(connection){
-    console.log("connection established...");
-}
-else{
-    console.log("connection failed....");
-}
+connection.connect((err)=>{
+    if(err){
+    console.log("connection failed...");
+    }
+  else{
+    console.log("connection sucess....");
+  }
+});
 module.exports=connection;
 
