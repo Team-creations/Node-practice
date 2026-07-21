@@ -6,8 +6,7 @@ const app=express();
 app.use(express.json());
 
 app.get("/getstudents",(req,res)=>{
-    
-    db.query("select * from students",(err,result)=>{
+     db.query("select * from students",(err,result)=>{
         if(err){
             return res.json("no students found")
         }
